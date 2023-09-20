@@ -1,0 +1,62 @@
+/* ページ全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ヘッダーのスタイル */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* プロフィールセクションのスタイル */
+.profile {
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
+}
+
+.profile img {
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.social-link {
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.social {
+    text-align: center;
+    color: #fff;
+}
+
+.social-link a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.social-link a:hover {
+    background-color: #555;
+}
+
+.promise {
+    color: #fff;
+}
+/* フッターのスタイル */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
