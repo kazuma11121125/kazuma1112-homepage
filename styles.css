@@ -60,3 +60,21 @@ footer {
     text-align: center;
     padding: 1rem 0;
 }
+
+.video-container {
+    position: relative;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto; /* 左右中央に配置 */
+    padding-top: 56.25%; /* アスペクト比 16:9 */
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
