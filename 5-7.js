@@ -1,7 +1,7 @@
 particlesJS("particles-js",{
 	"particles":{
 		"number":{
-			"value":500,//この数値を変更するとホタルの数が増減できる
+			"value":100,//この数値を変更するとホタルの数が増減できる
 			"density":{
 				"enable":true,
 				"value_area":1602.3971861905397
