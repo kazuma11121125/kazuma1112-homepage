@@ -41,7 +41,7 @@ particlesJS("particles-js",{
 		},
 		"move":{
 			"enable":true,
-			"speed":2,//この数値を小さくするとゆっくりな動きになる
+			"speed":1.5,//この数値を小さくするとゆっくりな動きになる
 			"direction":"none",//方向指定なし
 			"random":true,//動きはランダムに
 			"straight":false,//動きをとどめない
