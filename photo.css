@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.photo-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo {
+    width: 33.33%; /* 3列に写真を配置するために33.33%の幅を設定 */
+    box-sizing: border-box;
+    padding: 5px; /* 写真の間に余白を設定 */
+    color: white;
+    font-size: 20px; /* フォントサイズを変更 */
+
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kazuma1112の写真集</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+    <link rel="stylesheet" type="text/css" href="6-1-7.css">
+    <link rel="stylesheet" type="text/css" href="photo.css">
+    <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+    <link rel="stylesheet" type="text/css" href="5-7.css">
+
+</head>
+
+<body>
+    <div id="splash">
+        <div id="splash_text"></div>
+        <div class="loader_cover loader_cover-up"></div>
+        <div class="loader_cover loader_cover-down"></div>
+    </div>
+    <!--==============JQuery読み込み===============-->
+    <script src="jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="progressbar.min.js"></script>
+    <!--IE11用※対応しなければ削除してください-->
+    <script src="babel.min.js"></script>
+    <script src="polyfill.min.js"></script>
+    <!--自作のJS-->
+    <div id="particles-js"></div>
+    <script src="particles.min.js"></script>
+    <script src="5-7.js"></script>
+    <main>
+        <header>
+            <h1>kazumaの写真集</h1>
+        </header>
+        <body>
+            <div class="photo-container" id="photoContainer">
+                <!-- 写真を表示するための要素をここに追加 -->
+            </div>        
+            <script src="photo.js"></script>
+        </body>
+        <section class="promise">
+            <h2>写真やアイコンについて</h2>
+            <p>写真の無断転載は厳に禁じます。写真をご利用いただく場合には、kazuma11112の許可を必ず得てください。<br>また、ご理解いただきますようお願い申し上げますが、許可をお与えできない場合もあることをご承知おきください。
+            </p>
+            <p>支援絵・イラストに関しては許可させていただきます。ただし、イラストを用いたオリジナルキャラクターについての発言をご遠慮いただきますようお願い申し上げます。<br>また、無断での使用（一部利用や色変えなども含みます）や、画像の切り抜きによる無断アイコンの使用は厳禁です。さらに、トレース（手書き模写を含む）による作品制作や、他の作品を明らかに模倣する行為も禁止いたします。<br>何かご不明点やご質問がございましたら、どうぞお気軽にお知らせください。
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 kazuma1112</p>
+    </footer>
+</body>
+</html>
