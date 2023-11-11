@@ -1,0 +1,20 @@
+#photoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo {
+    text-align: center;
+}
+
+.photo-title {
+    color: white;
+    font-size: 20px;
+}

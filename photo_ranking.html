@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kazuma1112のコンテスト応募一覧</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+    <link rel="stylesheet" type="text/css" href="6-1-7.css">
+    <link rel="stylesheet" type="text/css" href="photo_ranking.css">
+    <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+    <link rel="stylesheet" type="text/css" href="5-7.css">
+
+</head>
+
+<body>
+    <div id="splash">
+        <div id="splash_text"></div>
+        <div class="loader_cover loader_cover-up"></div>
+        <div class="loader_cover loader_cover-down"></div>
+    </div>
+    <!--==============JQuery読み込み===============-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="progressbar.min.js"></script>
+    <!--IE11用※対応しなければ削除してください-->
+    <script src="babel.min.js"></script>
+    <script src="polyfill.min.js"></script>
+    <!--自作のJS-->
+    <div id="particles-js"></div>
+    <script src="particles.min.js"></script>
+    <script src="5-7.js"></script>
+    <main>
+        <header>
+            <h1>kazuma1112のお気に入り写真集(コンテスト応募品)</h1>
+        </header>
+        <body>
+            <div class="photo-container" id="photoContainer">
+                <!-- 写真を表示するための要素をここに追加 -->
+            </div>        
+            <script src="photo_ranking.js"></script>
+        </body>
+    </main>
+    <footer>
+        <p>&copy; 2023 kazuma1112</p>
+    </footer>
+</body>
+</html>
