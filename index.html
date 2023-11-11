@@ -26,7 +26,7 @@
         <div class="loader_cover loader_cover-down"></div>
     </div>
     <!--==============JQuery読み込み===============-->
-    <script src="jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>
     <script src="progressbar.min.js"></script>
     <!--IE11用※対応しなければ削除してください-->
@@ -86,8 +86,8 @@
                 <a href="https://discord.com/api/oauth2/authorize?client_id=943752169029505114&permissions=2684480528&scope=applications.commands%20bot"><i class="fab fa-discord-bot-dpi"></i> DPI-BOT</a>
             </div>
             <style>
-                /* ボタンのスタイル */
-                button {
+                /* ボタンのスタイル*/
+                .photo_button {
                     display: inline-block;
                     padding: 10px 20px;
                     background-color: #333;
@@ -97,13 +97,13 @@
                     font-weight: bold;
                 }
         
-                button:hover {
+                .photo_button:hover {
                     background-color: #555;
                 }
             </style> 
                 <h2>写真集</h2>
                 <!-- ボタンをクリックするとphoto.htmlに移動する -->
-                <button onclick="redirectToPhotoPage()">専用ページ</button>
+                <button class="photo_button" onclick="redirectToPhotoPage()">専用ページ</button>
             
                 <script>
                     function redirectToPhotoPage() {
