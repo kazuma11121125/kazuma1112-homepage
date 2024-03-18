@@ -59,5 +59,5 @@ if __name__ == "__main__":
     #途中
     exif_info = get_exif_data(image_path)
     datetime_original, camera_name = get_datetime_and_camera(exif_info)
-    text = f"Shooting Date: {datetime_original}\nCamera name: {camera_name}\nnPhotographer : kazuma1112"
+    text = f"Shooting Date: {datetime_original}\nCamera name: {camera_name}\nPhotographer : kazuma1112"
     add_text_to_image(image_path, text, font_size=30)  # Specify the desired font size
