@@ -48,16 +48,16 @@ def add_text_to_image(image_path, text, position=(10, 10), font_size=20):
         draw.text(position, text, fill="white", font=font)
 
         # Save the image
-        image.save("output_image.jpg")
+        image.save("data/12.JPG")
         print("Text added, and the image is saved.")
 
     except Exception as e:
         print(f"Error: {e}")
 
 if __name__ == "__main__":
-    image_path = "data/1.JPG"
+    image_path = "base_data/13.jpg"
     #途中
     exif_info = get_exif_data(image_path)
     datetime_original, camera_name = get_datetime_and_camera(exif_info)
-    text = f"Shooting Date: {datetime_original}\nCamera name: {camera_name}\nkazuma1112"
+    text = f"Shooting Date: {datetime_original}\nCamera name: {camera_name}\nnPhotographer : kazuma1112"
     add_text_to_image(image_path, text, font_size=30)  # Specify the desired font size
