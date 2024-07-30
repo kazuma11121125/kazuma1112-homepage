@@ -5,13 +5,15 @@
     <title>英語小テスト④</title>
     <style>
         .word-section {
-            margin-bottom: 20px;
+            margin-bottom: 100px;
         }
         .word-section h3 {
             margin-bottom: 10px;
         }
         .word-section button {
-            margin-top: 5px;
+            margin-top: 20px;
+            font-size: 20px;  /* フォントサイズを大きく */
+            padding: 10px 20px;  /* ボタンの内側の余白を増やす */
         }
     </style>
     <script>
@@ -34,6 +36,7 @@
     </div>
     <div class="word-section">
         <h3>「議論・会議に関する語（２）」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>board <span id="board" style="display:none;">委員会（上位）</span></p>
         <button onclick="toggleVisibility('board')">表示</button>
         <p>committee <span id="committee" style="display:none;">委員会（下位）</span></p>
@@ -46,6 +49,7 @@
 
     <div class="word-section">
         <h3>「「得る」「欠く」「取り去る」ことなどを表す語」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>gain <span id="gain" style="display:none;">得る</span></p>
         <button onclick="toggleVisibility('gain')">表示</button>
         <p>obtain <span id="obtain" style="display:none;">手に入れ</span></p>
@@ -66,6 +70,7 @@
 
     <div class="word-section">
         <h3>「「目を使ってする」ことを表す語」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>stare <span id="stare" style="display:none;">じっと見る</span></p>
         <button onclick="toggleVisibility('stare')">表示</button>
         <p>discover <span id="discover" style="display:none;">発見した</span></p>
@@ -80,6 +85,7 @@
 
     <div class="word-section">
         <h3>「不可算名詞（１）」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>advice <span id="advice" style="display:none;">アドバイス</span></p>
         <button onclick="toggleVisibility('advice')">表示</button>
         <p>baggage <span id="baggage" style="display:none;">手荷物</span></p>
@@ -96,6 +102,7 @@
 
     <div class="word-section">
         <h3>「意味がまぎらわしい名詞」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>flock <span id="flock" style="display:none;">（鳥や羊の）群れ</span></p>
         <button onclick="toggleVisibility('flock')">表示</button>
         <p>herd <span id="herd" style="display:none;">（牛や馬の）群れ</span></p>
@@ -116,6 +123,7 @@
 
     <div class="word-section">
         <h3>「不可算名詞（２）」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>homework <span id="homework" style="display:none;">宿題</span></p>
         <button onclick="toggleVisibility('homework')">表示</button>
         <p>housework <span id="housework" style="display:none;">家事</span></p>
@@ -130,6 +138,7 @@
 
     <div class="word-section">
         <h3>「経済に関する語」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>economy <span id="economy" style="display:none;">経済</span></p>
         <button onclick="toggleVisibility('economy')">表示</button>
         <p>price <span id="price" style="display:none;">価格</span></p>
@@ -152,6 +161,7 @@
 
     <div class="word-section">
         <h3>「団体行動に関する語」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>join <span id="join" style="display:none;">加わる</span></p>
         <button onclick="toggleVisibility('join')">表示</button>
         <p>participate <span id="participate" style="display:none;">参加する</span></p>
@@ -164,6 +174,7 @@
 
     <div class="word-section">
         <h3>＜熟語＞「make③」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>make oneself understood <span id="make_understood" style="display:none;">自分の意思を伝える</span></p>
         <button onclick="toggleVisibility('make_understood')">表示</button>
         <p>make a living <span id="make_living" style="display:none;">生計を立てる</span></p>
@@ -182,6 +193,7 @@
 
     <div class="word-section">
         <h3>「その他の基本動詞①」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>tell ... from ～ <span id="tell_from" style="display:none;">... を～と見分ける</span></p>
         <button onclick="toggleVisibility('tell_from')">表示</button>
         <p>tell ... off <span id="tell_off" style="display:none;">... をしかる</span></p>
@@ -202,6 +214,7 @@
 
     <div class="word-section">
         <h3>「頻度・回数に関する熟語」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>every time ... <span id="every_time" style="display:none;">...するときはいつも</span></p>
         <button onclick="toggleVisibility('every_time')">表示</button>
         <p>one after another <span id="one_after_another" style="display:none;">次々と</span></p>
@@ -222,6 +235,7 @@
 
     <div class="word-section">
         <h3>「「…するとすぐに」の表現」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>as soon as ... <span id="as_soon_as" style="display:none;">...するとすぐに</span></p>
         <button onclick="toggleVisibility('as_soon_as')">表示</button>
         <p>the moment ... <span id="the_moment" style="display:none;">...するとすぐに</span></p>
@@ -236,6 +250,7 @@
 
     <div class="word-section">
         <h3>「等位接続詞を用いた相関表現」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>both A and B <span id="both_a_and_b" style="display:none;">AもBも</span></p>
         <button onclick="toggleVisibility('both_a_and_b')">表示</button>
         <p>not A but B <span id="not_a_but_b" style="display:none;">AでなくB</span></p>
@@ -250,6 +265,7 @@
 
     <div class="word-section">
         <h3>「【目的】を表す接続詞」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>so that ... <span id="so_that" style="display:none;">...するために、するように</span></p>
         <button onclick="toggleVisibility('so_that')">表示</button>
         <p>in order that ... <span id="in_order_that" style="display:none;">...するために、するように</span></p>
@@ -262,6 +278,7 @@
 
     <div class="word-section">
         <h3>「nothing/somethingを用いた慣用表現」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>have nothing to do with ... <span id="have_nothing_to_do_with" style="display:none;">...とは関係がない</span></p>
         <button onclick="toggleVisibility('have_nothing_to_do_with')">表示</button>
         <p>for nothing <span id="for_nothing" style="display:none;">...むだに</span></p>
@@ -276,6 +293,7 @@
 
     <div class="word-section">
         <h3>「不定詞を用いた慣用表現」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>too ... (for ー) to do <span id="too_to_do" style="display:none;">（ーが）～するには...すぎる</span></p>
         <button onclick="toggleVisibility('too_to_do')">表示</button>
         <p>... enough to do <span id="enough_to_do" style="display:none;">～するのに十分...</span></p>
@@ -296,6 +314,7 @@
 
     <div class="word-section">
         <h3>「否定的な意味を持つ熟語」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>for the life of me <span id="for_the_life_of_me" style="display:none;">（否定文で）どうしても～ない</span></p>
         <button onclick="toggleVisibility('for_the_life_of_me')">表示</button>
         <p>under [in] no circumstances <span id="under_no_circumstances" style="display:none;">どんな状況でも～ない</span></p>
@@ -310,6 +329,7 @@
 
     <div class="word-section">
         <h3>「分詞を含む慣用表現」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>generally speaking <span id="generally_speaking" style="display:none;">一般的に言えば</span></p>
         <button onclick="toggleVisibility('generally_speaking')">表示</button>
         <p>speaking of ... <span id="speaking_of" style="display:none;">...と言えば</span></p>
@@ -326,6 +346,7 @@
 
     <div class="word-section">
         <h3>「注意すべき助動詞（句）」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>had better do <span id="had_better_do" style="display:none;">～しなさい</span></p>
         <button onclick="toggleVisibility('had_better_do')">表示</button>
         <p>ought to do <span id="ought_to_do" style="display:none;">～するべきだ</span></p>
@@ -336,6 +357,7 @@
 
     <div class="word-section">
         <h3>「動名詞を用いた慣用表現」</h3>
+        <button onclick="location.reload()">初期化</button>
         <p>there is no -ing <span id="there_is_no_ing" style="display:none;">～できない</span></p>
         <button onclick="toggleVisibility('there_is_no_ing')">表示</button>
         <p>feel like -ing <span id="feel_like_ing" style="display:none;">～したい気がする</span></p>
